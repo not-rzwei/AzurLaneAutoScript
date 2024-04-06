@@ -80,7 +80,6 @@ class Level(ModuleBase):
         if isinstance(limit_config, (int, float)):
             limits.append(limit_config)
         else:
-            limits = []
             for limit in limit_config.split(','):
                 try:
                     limits.append(int(limit))
@@ -89,6 +88,9 @@ class Level(ModuleBase):
                     pass
 
         logger.info(f'Use level limits: {limits}')
+
+        if len(limits) == 0:
+            return False
 
         for i in range(6):
             before, after = self._lv_before_battle[i], self.lv[i]
