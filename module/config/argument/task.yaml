@@ -10,8 +10,7 @@ Alas:
   tasks:
     Alas:
       - Emulator
-      - StartEmulator
-      - RestartEmulator
+      - EmulatorInfo
       - Error
       - Optimization
       - DropRecord
