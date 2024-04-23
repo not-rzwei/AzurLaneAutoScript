@@ -799,6 +799,10 @@
       "name": "出击次数大于 X 后停止",
       "help": "每运行一次，次数减一，归零后停止任务\n0 表示不限制次数"
     },
+    "CoinLimit": {
+      "name": "StopCondition.CoinLimit.name",
+      "help": "StopCondition.CoinLimit.help"
+    },
     "OilLimit": {
       "name": "石油低于 X 后停止",
       "help": ""

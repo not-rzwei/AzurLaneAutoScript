@@ -67,7 +67,7 @@ class CampaignRun(CampaignEvent):
 
         return True
 
-    def triggered_stop_condition(self, oil_check=True):
+    def triggered_stop_condition(self, oil_check=True, coin_check=True):
         """
         Returns:
             bool: If triggered a stop condition.
@@ -99,6 +99,14 @@ class CampaignRun(CampaignEvent):
                 logger.hr('Triggered stop condition: Oil limit')
                 self.config.task_delay(minute=(120, 240))
                 return True
+
+        # Coin limit
+        if coin_check:
+            if self.get_coin() > self.config.StopCondition_CoinLimit:
+                logger.hr('Triggered stop condition: Coin limit')
+                self.config.Scheduler_Enable = False
+                return True
+
         # Auto search oil limit
         if self.campaign.auto_search_oil_limit_triggered:
             logger.hr('Triggered stop condition: Auto search oil limit')
@@ -371,7 +379,7 @@ class CampaignRun(CampaignEvent):
                     break
 
             # End
-            if self.triggered_stop_condition(oil_check=not self.campaign.is_in_auto_search_menu()):
+            if self.triggered_stop_condition(oil_check=not self.campaign.is_in_auto_search_menu(), coin_check=not self.campaign.is_in_auto_search_menu()):
                 break
 
             # Run
@@ -389,7 +397,7 @@ class CampaignRun(CampaignEvent):
             if self.config.StopCondition_RunCount:
                 self.config.StopCondition_RunCount -= 1
             # End
-            if self.triggered_stop_condition(oil_check=False):
+            if self.triggered_stop_condition(oil_check=False, coin_check=False):
                 break
             # One-time stage limit
             if self.campaign.config.MAP_IS_ONE_TIME_STAGE:

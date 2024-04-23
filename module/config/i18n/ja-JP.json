@@ -799,6 +799,10 @@
       "name": "StopCondition.RunCount.name",
       "help": "StopCondition.RunCount.help"
     },
+    "CoinLimit": {
+      "name": "StopCondition.CoinLimit.name",
+      "help": "StopCondition.CoinLimit.help"
+    },
     "OilLimit": {
       "name": "StopCondition.OilLimit.name",
       "help": "StopCondition.OilLimit.help"

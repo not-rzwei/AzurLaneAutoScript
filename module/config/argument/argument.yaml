@@ -159,6 +159,7 @@ Campaign:
   AmbushEvade: true
 StopCondition:
   RunCount: 0
+  CoinLimit: 590000
   OilLimit: 1000
   MapAchievement:
     value: non_stop

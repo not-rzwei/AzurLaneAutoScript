@@ -799,6 +799,10 @@
       "name": "Run Level X Time(s)",
       "help": "Automatically decreases by 1 for every completion and stops the current task upon reaching zero; saving as 0 implies unlimited runs until a different stop condition is met"
     },
+    "CoinLimit": {
+      "name": "Keep Coin Below X",
+      "help": "Stop current task if coin is found to be above this number"
+    },
     "OilLimit": {
       "name": "Keep Oil Above X",
       "help": "Stop current task if oil is found to be below this number"

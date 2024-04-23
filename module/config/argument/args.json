@@ -500,6 +500,10 @@
         "type": "input",
         "value": 0
       },
+      "CoinLimit": {
+        "type": "input",
+        "value": 590000
+      },
       "OilLimit": {
         "type": "input",
         "value": 1000
@@ -877,6 +881,10 @@
         "type": "input",
         "value": 0
       },
+      "CoinLimit": {
+        "type": "input",
+        "value": 590000
+      },
       "OilLimit": {
         "type": "input",
         "value": 1000
@@ -1253,6 +1261,10 @@
       "RunCount": {
         "type": "input",
         "value": 0
+      },
+      "CoinLimit": {
+        "type": "input",
+        "value": 590000
       },
       "OilLimit": {
         "type": "input",
@@ -1702,8 +1714,8 @@
         ],
         "display": "hide",
         "option_bold": [
-          "event_20220224_cn",
-          "event_20211111_cn"
+          "event_20211111_cn",
+          "event_20220224_cn"
         ],
         "cn": "event_20220224_cn",
         "en": "event_20220224_cn",
@@ -1749,6 +1761,10 @@
         "type": "input",
         "value": 0,
         "display": "hide"
+      },
+      "CoinLimit": {
+        "type": "input",
+        "value": 590000
       },
       "OilLimit": {
         "type": "input",
@@ -2035,8 +2051,8 @@
           "event_20240229_cn"
         ],
         "option_bold": [
-          "event_20220224_cn",
-          "event_20211111_cn"
+          "event_20211111_cn",
+          "event_20220224_cn"
         ],
         "cn": "event_20220224_cn",
         "en": "event_20220224_cn",
@@ -2078,6 +2094,10 @@
       "RunCount": {
         "type": "input",
         "value": 0
+      },
+      "CoinLimit": {
+        "type": "input",
+        "value": 590000
       },
       "OilLimit": {
         "type": "input",
@@ -2483,8 +2503,8 @@
           "event_20240229_cn"
         ],
         "option_bold": [
-          "event_20220224_cn",
-          "event_20211111_cn"
+          "event_20211111_cn",
+          "event_20220224_cn"
         ],
         "cn": "event_20220224_cn",
         "en": "event_20220224_cn",
@@ -2526,6 +2546,10 @@
       "RunCount": {
         "type": "input",
         "value": 0
+      },
+      "CoinLimit": {
+        "type": "input",
+        "value": 590000
       },
       "OilLimit": {
         "type": "input",
@@ -2894,8 +2918,8 @@
           "raid_20240328"
         ],
         "option_bold": [
-          "raid_20230629",
-          "raid_20240328"
+          "raid_20240328",
+          "raid_20230629"
         ],
         "cn": "raid_20240328",
         "en": "raid_20240328",
@@ -2941,6 +2965,10 @@
       "RunCount": {
         "type": "input",
         "value": 0
+      },
+      "CoinLimit": {
+        "type": "input",
+        "value": 590000
       },
       "OilLimit": {
         "type": "input",
@@ -3168,6 +3196,10 @@
       "RunCount": {
         "type": "input",
         "value": 0
+      },
+      "CoinLimit": {
+        "type": "input",
+        "value": 590000
       },
       "OilLimit": {
         "type": "input",
@@ -3461,6 +3493,10 @@
       "RunCount": {
         "type": "input",
         "value": 0
+      },
+      "CoinLimit": {
+        "type": "input",
+        "value": 590000
       },
       "OilLimit": {
         "type": "input",
@@ -3877,8 +3913,8 @@
           "event_20240229_cn"
         ],
         "option_bold": [
-          "event_20220224_cn",
-          "event_20211111_cn"
+          "event_20211111_cn",
+          "event_20220224_cn"
         ],
         "cn": "event_20220224_cn",
         "en": "event_20220224_cn",
@@ -3922,6 +3958,10 @@
         "type": "input",
         "value": 0,
         "display": "hide"
+      },
+      "CoinLimit": {
+        "type": "input",
+        "value": 590000
       },
       "OilLimit": {
         "type": "input",
@@ -4342,8 +4382,8 @@
           "event_20240229_cn"
         ],
         "option_bold": [
-          "event_20220224_cn",
-          "event_20211111_cn"
+          "event_20211111_cn",
+          "event_20220224_cn"
         ],
         "cn": "event_20220224_cn",
         "en": "event_20220224_cn",
@@ -4387,6 +4427,10 @@
         "type": "input",
         "value": 0,
         "display": "hide"
+      },
+      "CoinLimit": {
+        "type": "input",
+        "value": 590000
       },
       "OilLimit": {
         "type": "input",
@@ -4807,8 +4851,8 @@
           "event_20240229_cn"
         ],
         "option_bold": [
-          "event_20220224_cn",
-          "event_20211111_cn"
+          "event_20211111_cn",
+          "event_20220224_cn"
         ],
         "cn": "event_20220224_cn",
         "en": "event_20220224_cn",
@@ -4852,6 +4896,10 @@
         "type": "input",
         "value": 0,
         "display": "hide"
+      },
+      "CoinLimit": {
+        "type": "input",
+        "value": 590000
       },
       "OilLimit": {
         "type": "input",
@@ -5272,8 +5320,8 @@
           "event_20240229_cn"
         ],
         "option_bold": [
-          "event_20220224_cn",
-          "event_20211111_cn"
+          "event_20211111_cn",
+          "event_20220224_cn"
         ],
         "cn": "event_20220224_cn",
         "en": "event_20220224_cn",
@@ -5317,6 +5365,10 @@
         "type": "input",
         "value": 0,
         "display": "hide"
+      },
+      "CoinLimit": {
+        "type": "input",
+        "value": 590000
       },
       "OilLimit": {
         "type": "input",
@@ -5727,8 +5779,8 @@
           "event_20240229_cn"
         ],
         "option_bold": [
-          "event_20220224_cn",
-          "event_20211111_cn"
+          "event_20211111_cn",
+          "event_20220224_cn"
         ],
         "cn": "event_20220224_cn",
         "en": "event_20220224_cn",
@@ -5772,6 +5824,10 @@
         "type": "input",
         "value": 0,
         "display": "hide"
+      },
+      "CoinLimit": {
+        "type": "input",
+        "value": 590000
       },
       "OilLimit": {
         "type": "input",
@@ -6135,8 +6191,8 @@
           "raid_20240328"
         ],
         "option_bold": [
-          "raid_20230629",
-          "raid_20240328"
+          "raid_20240328",
+          "raid_20230629"
         ],
         "cn": "raid_20240328",
         "en": "raid_20240328",
@@ -6183,6 +6239,10 @@
         "type": "input",
         "value": 0,
         "display": "hide"
+      },
+      "CoinLimit": {
+        "type": "input",
+        "value": 590000
       },
       "OilLimit": {
         "type": "input",
@@ -6411,6 +6471,10 @@
       "RunCount": {
         "type": "input",
         "value": 0
+      },
+      "CoinLimit": {
+        "type": "input",
+        "value": 590000
       },
       "OilLimit": {
         "type": "input",
