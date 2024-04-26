@@ -197,6 +197,12 @@ class CampaignRun(CampaignEvent):
             name = 'sp'
         if folder == 'event_20221124_cn' and name in ['asp', 'a.sp']:
             name = 'sp'
+        if folder == 'event_20240425_cn':
+            if name in ['μsp', 'usp', 'iisp']:
+                name = 'sp'
+            name = name.replace('lsp', 'isp').replace('1sp', 'isp')
+            if name == 'isp':
+                name = 'isp1'
         # Convert to chapter T
         convert = {
             'a1': 't1',
