@@ -198,7 +198,7 @@ class CampaignRun(CampaignEvent):
         if folder == 'event_20221124_cn' and name in ['asp', 'a.sp']:
             name = 'sp'
         if folder == 'event_20240425_cn':
-            if name in ['μsp', 'usp', 'iisp']:
+            if name in ['μsp', 'usp', 'iisp', 'ijsp']:
                 name = 'sp'
             name = name.replace('lsp', 'isp').replace('1sp', 'isp')
             if name == 'isp':
