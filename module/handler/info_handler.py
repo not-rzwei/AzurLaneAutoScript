@@ -409,9 +409,9 @@ class InfoHandler(ModuleBase):
                 if drop:
                     drop.handle_add(self, before=2)
                 if self.config.STORY_ALLOW_SKIP:
-                    self.device.click(STORY_SKIP)
+                    self.device.click(STORY_SKIP, False)
                 else:
-                    self.device.click(OS_CLICK_SAFE_AREA)
+                    self.device.click(OS_CLICK_SAFE_AREA, False)
                 self._story_confirm.reset()
                 self.story_popup_timeout.reset()
                 return True

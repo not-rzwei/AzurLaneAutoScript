@@ -117,7 +117,7 @@ class Combat(Combat_, MapEventHandler):
         if self.appear(GET_ITEMS_1, offset=5, interval=self.battle_status_click_interval):
             if drop:
                 drop.handle_add(self, before=2)
-            self.device.click(CLICK_SAFE_AREA)
+            self.device.click(CLICK_SAFE_AREA, False)
             self.interval_reset(BATTLE_STATUS_S)
             self.interval_reset(BATTLE_STATUS_A)
             self.interval_reset(BATTLE_STATUS_B)
@@ -125,7 +125,7 @@ class Combat(Combat_, MapEventHandler):
         if self.appear(GET_ITEMS_2, offset=5, interval=self.battle_status_click_interval):
             if drop:
                 drop.handle_add(self, before=2)
-            self.device.click(CLICK_SAFE_AREA)
+            self.device.click(CLICK_SAFE_AREA, False)
             self.interval_reset(BATTLE_STATUS_S)
             self.interval_reset(BATTLE_STATUS_A)
             self.interval_reset(BATTLE_STATUS_B)
@@ -133,7 +133,7 @@ class Combat(Combat_, MapEventHandler):
         if self.appear(GET_ADAPTABILITY, offset=5, interval=self.battle_status_click_interval):
             if drop:
                 drop.handle_add(self, before=2)
-            self.device.click(CLICK_SAFE_AREA)
+            self.device.click(CLICK_SAFE_AREA, False)
             self.interval_reset(BATTLE_STATUS_S)
             self.interval_reset(BATTLE_STATUS_A)
             self.interval_reset(BATTLE_STATUS_B)
