@@ -501,7 +501,7 @@ class OSFleet(OSCamera, Combat, Fleet, OSAsh):
 
         # Wait until arrived
         # Having new screenshots
-        self.wait_until_walk_stable(confirm_timer=Timer(1.5, count=4), walk_out_of_step=False)
+        self.wait_until_walk_stable(confirm_timer=Timer(5, count=4), walk_out_of_step=False)
 
     def go_month_boss_room(self, is_normal=True):
         logger.hr('Goto room entrance')
@@ -562,7 +562,7 @@ class OSFleet(OSCamera, Combat, Fleet, OSAsh):
 
             # Wait until arrived
             # Having new screenshots
-            self.wait_until_walk_stable(confirm_timer=Timer(1.5, count=4), walk_out_of_step=False)
+            self.wait_until_walk_stable(confirm_timer=Timer(5, count=4), walk_out_of_step=False)
 
     def month_boss_goto_additional(self, location=(0, 0), has_fleet_step=False, drop=None):
         self.update_os()
@@ -585,7 +585,7 @@ class OSFleet(OSCamera, Combat, Fleet, OSAsh):
             self.device.click(grid)
         else:
             logger.info('No boss to goto, stop')
-        self.wait_until_walk_stable(confirm_timer=Timer(1.5, count=4), walk_out_of_step=False, drop=drop)
+        self.wait_until_walk_stable(confirm_timer=Timer(5, count=4), walk_out_of_step=False, drop=drop)
 
     def boss_goto(self, location=(0, 0), has_fleet_step=False, drop=None, is_month=False):
         logger.hr('BOSS goto')
@@ -619,7 +619,7 @@ class OSFleet(OSCamera, Combat, Fleet, OSAsh):
 
             # Wait until arrived
             # Having new screenshots
-            self.wait_until_walk_stable(confirm_timer=Timer(1.5, count=4), walk_out_of_step=False, drop=drop)
+            self.wait_until_walk_stable(confirm_timer=Timer(5, count=4), walk_out_of_step=False, drop=drop)
 
     def get_boss_leave_button(self):
         for grid in self.view:
@@ -725,7 +725,7 @@ class OSFleet(OSCamera, Combat, Fleet, OSAsh):
                         pass
 
                 # Check fleet
-                self.handle_os_map_fleet_lock(enable=False)
+                self.handle_os_map_fleet_lock(enable=True)
                 if self.fleet_low_resolve_appear():
                     logger.warning('Skip using current fleet because of the low resolve debuff')
                     self.boss_goto(location=fleet.standby_loca, has_fleet_step=has_fleet_step, drop=drop,
@@ -778,7 +778,7 @@ class OSFleet(OSCamera, Combat, Fleet, OSAsh):
             out: If success, in a dangerous or safe zone.
                 If failed, still in abyssal.
         """
-        self.handle_os_map_fleet_lock(enable=False)
+        self.handle_os_map_fleet_lock(enable=True)
 
         def is_at_front(grid):
             # Grid location is usually to be (0, -2)
