@@ -56,7 +56,7 @@ class Camera(MapOperation):
 
             vector = distance * vector
             vector = -vector
-            self.device.swipe_vector(vector, name=name, box=box, whitelist_area=whitelist, blacklist_area=blacklist)
+            self.device.swipe_vector(vector, name=name, box=box, whitelist_area=whitelist, blacklist_area=blacklist, distance_check=False, control_check=False)
             # Donno why initial commit have a sleep here
             # self.device.sleep(0.3)
             self.update()

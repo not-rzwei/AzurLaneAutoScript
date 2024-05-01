@@ -85,8 +85,9 @@ class Control(Hermit, Minitouch, Scrcpy, MaaTouch, NemuIpc):
         else:
             self.swipe_adb((x, y), (x, y), duration)
 
-    def swipe(self, p1, p2, duration=(0.1, 0.2), name='SWIPE', distance_check=True):
-        self.handle_control_check(name)
+    def swipe(self, p1, p2, duration=(0.1, 0.2), name='SWIPE', distance_check=True, control_check=True):
+        if control_check:
+            self.handle_control_check(name)
         p1, p2 = ensure_int(p1, p2)
         duration = ensure_time(duration)
         method = self.config.Emulator_ControlMethod
@@ -120,7 +121,7 @@ class Control(Hermit, Minitouch, Scrcpy, MaaTouch, NemuIpc):
             self.swipe_adb(p1, p2, duration=duration)
 
     def swipe_vector(self, vector, box=(123, 159, 1175, 628), random_range=(0, 0, 0, 0), padding=15,
-                     duration=(0.1, 0.2), whitelist_area=None, blacklist_area=None, name='SWIPE', distance_check=True):
+                     duration=(0.1, 0.2), whitelist_area=None, blacklist_area=None, name='SWIPE', distance_check=True, control_check=True):
         """Method to swipe.
 
         Args:
@@ -145,7 +146,7 @@ class Control(Hermit, Minitouch, Scrcpy, MaaTouch, NemuIpc):
             whitelist_area=whitelist_area,
             blacklist_area=blacklist_area
         )
-        self.swipe(p1, p2, duration=duration, name=name, distance_check=distance_check)
+        self.swipe(p1, p2, duration=duration, name=name, distance_check=distance_check, control_check=control_check)
 
     def drag(self, p1, p2, segments=1, shake=(0, 15), point_random=(-10, -10, 10, 10), shake_random=(-5, -5, 5, 5),
              swipe_duration=0.25, shake_duration=0.1, name='DRAG'):
