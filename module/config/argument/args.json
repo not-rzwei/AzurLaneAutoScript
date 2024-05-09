@@ -496,17 +496,13 @@
       }
     },
     "StopCondition": {
-      "RunCount": {
-        "type": "input",
-        "value": 0
-      },
-      "CoinLimit": {
-        "type": "input",
-        "value": 590000
-      },
       "OilLimit": {
         "type": "input",
         "value": 1000
+      },
+      "RunCount": {
+        "type": "input",
+        "value": 0
       },
       "MapAchievement": {
         "type": "select",
@@ -530,6 +526,10 @@
       "ReachLevel": {
         "type": "input",
         "value": 0
+      },
+      "CoinLimit": {
+        "type": "input",
+        "value": 550000
       }
     },
     "Fleet": {
@@ -877,17 +877,13 @@
       }
     },
     "StopCondition": {
-      "RunCount": {
-        "type": "input",
-        "value": 0
-      },
-      "CoinLimit": {
-        "type": "input",
-        "value": 590000
-      },
       "OilLimit": {
         "type": "input",
         "value": 1000
+      },
+      "RunCount": {
+        "type": "input",
+        "value": 0
       },
       "MapAchievement": {
         "type": "select",
@@ -911,6 +907,10 @@
       "ReachLevel": {
         "type": "input",
         "value": 0
+      },
+      "CoinLimit": {
+        "type": "input",
+        "value": 550000
       }
     },
     "Fleet": {
@@ -1258,17 +1258,13 @@
       }
     },
     "StopCondition": {
-      "RunCount": {
-        "type": "input",
-        "value": 0
-      },
-      "CoinLimit": {
-        "type": "input",
-        "value": 590000
-      },
       "OilLimit": {
         "type": "input",
         "value": 1000
+      },
+      "RunCount": {
+        "type": "input",
+        "value": 0
       },
       "MapAchievement": {
         "type": "select",
@@ -1292,6 +1288,10 @@
       "ReachLevel": {
         "type": "input",
         "value": 0
+      },
+      "CoinLimit": {
+        "type": "input",
+        "value": 550000
       }
     },
     "Fleet": {
@@ -1758,18 +1758,14 @@
       }
     },
     "StopCondition": {
+      "OilLimit": {
+        "type": "input",
+        "value": 1000
+      },
       "RunCount": {
         "type": "input",
         "value": 0,
         "display": "hide"
-      },
-      "CoinLimit": {
-        "type": "input",
-        "value": 590000
-      },
-      "OilLimit": {
-        "type": "input",
-        "value": 1000
       },
       "MapAchievement": {
         "type": "select",
@@ -1797,6 +1793,10 @@
         "type": "input",
         "value": 0,
         "display": "hide"
+      },
+      "CoinLimit": {
+        "type": "input",
+        "value": 550000
       }
     },
     "Fleet": {
@@ -2093,17 +2093,13 @@
       }
     },
     "StopCondition": {
-      "RunCount": {
-        "type": "input",
-        "value": 0
-      },
-      "CoinLimit": {
-        "type": "input",
-        "value": 590000
-      },
       "OilLimit": {
         "type": "input",
         "value": 1000
+      },
+      "RunCount": {
+        "type": "input",
+        "value": 0
       },
       "MapAchievement": {
         "type": "select",
@@ -2127,6 +2123,10 @@
       "ReachLevel": {
         "type": "input",
         "value": 0
+      },
+      "CoinLimit": {
+        "type": "input",
+        "value": 550000
       }
     },
     "Fleet": {
@@ -2546,17 +2546,13 @@
       }
     },
     "StopCondition": {
-      "RunCount": {
-        "type": "input",
-        "value": 0
-      },
-      "CoinLimit": {
-        "type": "input",
-        "value": 590000
-      },
       "OilLimit": {
         "type": "input",
         "value": 1000
+      },
+      "RunCount": {
+        "type": "input",
+        "value": 0
       },
       "MapAchievement": {
         "type": "select",
@@ -2580,6 +2576,10 @@
       "ReachLevel": {
         "type": "input",
         "value": 0
+      },
+      "CoinLimit": {
+        "type": "input",
+        "value": 550000
       }
     },
     "Fleet": {
@@ -2965,17 +2965,13 @@
       }
     },
     "StopCondition": {
-      "RunCount": {
-        "type": "input",
-        "value": 0
-      },
-      "CoinLimit": {
-        "type": "input",
-        "value": 590000
-      },
       "OilLimit": {
         "type": "input",
         "value": 1000
+      },
+      "RunCount": {
+        "type": "input",
+        "value": 0
       },
       "MapAchievement": {
         "type": "select",
@@ -3003,6 +2999,10 @@
         "type": "input",
         "value": 0,
         "display": "hide"
+      },
+      "CoinLimit": {
+        "type": "input",
+        "value": 550000
       }
     },
     "Emotion": {
@@ -3196,17 +3196,13 @@
       }
     },
     "StopCondition": {
-      "RunCount": {
-        "type": "input",
-        "value": 0
-      },
-      "CoinLimit": {
-        "type": "input",
-        "value": 590000
-      },
       "OilLimit": {
         "type": "input",
         "value": 1000
+      },
+      "RunCount": {
+        "type": "input",
+        "value": 0
       },
       "MapAchievement": {
         "type": "select",
@@ -3234,6 +3230,10 @@
         "type": "input",
         "value": 0,
         "display": "hide"
+      },
+      "CoinLimit": {
+        "type": "input",
+        "value": 550000
       }
     },
     "Emotion": {
@@ -3493,17 +3493,13 @@
       }
     },
     "StopCondition": {
-      "RunCount": {
-        "type": "input",
-        "value": 0
-      },
-      "CoinLimit": {
-        "type": "input",
-        "value": 590000
-      },
       "OilLimit": {
         "type": "input",
         "value": 1000
+      },
+      "RunCount": {
+        "type": "input",
+        "value": 0
       },
       "MapAchievement": {
         "type": "select",
@@ -3527,6 +3523,10 @@
       "ReachLevel": {
         "type": "input",
         "value": 0
+      },
+      "CoinLimit": {
+        "type": "input",
+        "value": 550000
       }
     },
     "Fleet": {
@@ -3958,18 +3958,14 @@
       }
     },
     "StopCondition": {
+      "OilLimit": {
+        "type": "input",
+        "value": 1000
+      },
       "RunCount": {
         "type": "input",
         "value": 0,
         "display": "hide"
-      },
-      "CoinLimit": {
-        "type": "input",
-        "value": 590000
-      },
-      "OilLimit": {
-        "type": "input",
-        "value": 1000
       },
       "MapAchievement": {
         "type": "select",
@@ -3997,6 +3993,10 @@
         "type": "input",
         "value": 0,
         "display": "hide"
+      },
+      "CoinLimit": {
+        "type": "input",
+        "value": 550000
       }
     },
     "Fleet": {
@@ -4428,18 +4428,14 @@
       }
     },
     "StopCondition": {
+      "OilLimit": {
+        "type": "input",
+        "value": 1000
+      },
       "RunCount": {
         "type": "input",
         "value": 0,
         "display": "hide"
-      },
-      "CoinLimit": {
-        "type": "input",
-        "value": 590000
-      },
-      "OilLimit": {
-        "type": "input",
-        "value": 1000
       },
       "MapAchievement": {
         "type": "select",
@@ -4467,6 +4463,10 @@
         "type": "input",
         "value": 0,
         "display": "hide"
+      },
+      "CoinLimit": {
+        "type": "input",
+        "value": 550000
       }
     },
     "Fleet": {
@@ -4898,18 +4898,14 @@
       }
     },
     "StopCondition": {
+      "OilLimit": {
+        "type": "input",
+        "value": 1000
+      },
       "RunCount": {
         "type": "input",
         "value": 0,
         "display": "hide"
-      },
-      "CoinLimit": {
-        "type": "input",
-        "value": 590000
-      },
-      "OilLimit": {
-        "type": "input",
-        "value": 1000
       },
       "MapAchievement": {
         "type": "select",
@@ -4937,6 +4933,10 @@
         "type": "input",
         "value": 0,
         "display": "hide"
+      },
+      "CoinLimit": {
+        "type": "input",
+        "value": 550000
       }
     },
     "Fleet": {
@@ -5368,18 +5368,14 @@
       }
     },
     "StopCondition": {
+      "OilLimit": {
+        "type": "input",
+        "value": 1000
+      },
       "RunCount": {
         "type": "input",
         "value": 0,
         "display": "hide"
-      },
-      "CoinLimit": {
-        "type": "input",
-        "value": 590000
-      },
-      "OilLimit": {
-        "type": "input",
-        "value": 1000
       },
       "MapAchievement": {
         "type": "select",
@@ -5407,6 +5403,10 @@
         "type": "input",
         "value": 0,
         "display": "hide"
+      },
+      "CoinLimit": {
+        "type": "input",
+        "value": 550000
       }
     },
     "Fleet": {
@@ -5828,18 +5828,14 @@
       }
     },
     "StopCondition": {
+      "OilLimit": {
+        "type": "input",
+        "value": 1000
+      },
       "RunCount": {
         "type": "input",
         "value": 0,
         "display": "hide"
-      },
-      "CoinLimit": {
-        "type": "input",
-        "value": 590000
-      },
-      "OilLimit": {
-        "type": "input",
-        "value": 1000
       },
       "MapAchievement": {
         "type": "select",
@@ -5867,6 +5863,10 @@
         "type": "input",
         "value": 0,
         "display": "hide"
+      },
+      "CoinLimit": {
+        "type": "input",
+        "value": 550000
       }
     },
     "Fleet": {
@@ -6243,18 +6243,14 @@
       }
     },
     "StopCondition": {
+      "OilLimit": {
+        "type": "input",
+        "value": 1000
+      },
       "RunCount": {
         "type": "input",
         "value": 0,
         "display": "hide"
-      },
-      "CoinLimit": {
-        "type": "input",
-        "value": 590000
-      },
-      "OilLimit": {
-        "type": "input",
-        "value": 1000
       },
       "MapAchievement": {
         "type": "select",
@@ -6282,6 +6278,10 @@
         "type": "input",
         "value": 0,
         "display": "hide"
+      },
+      "CoinLimit": {
+        "type": "input",
+        "value": 550000
       }
     },
     "Emotion": {
@@ -6476,17 +6476,13 @@
       }
     },
     "StopCondition": {
-      "RunCount": {
-        "type": "input",
-        "value": 0
-      },
-      "CoinLimit": {
-        "type": "input",
-        "value": 590000
-      },
       "OilLimit": {
         "type": "input",
         "value": 1000
+      },
+      "RunCount": {
+        "type": "input",
+        "value": 0
       },
       "MapAchievement": {
         "type": "select",
@@ -6514,6 +6510,10 @@
         "type": "input",
         "value": 0,
         "display": "hide"
+      },
+      "CoinLimit": {
+        "type": "input",
+        "value": 550000
       }
     },
     "Emotion": {

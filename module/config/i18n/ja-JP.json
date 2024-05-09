@@ -796,17 +796,13 @@
       "name": "StopCondition._info.name",
       "help": "StopCondition._info.help"
     },
-    "RunCount": {
-      "name": "StopCondition.RunCount.name",
-      "help": "StopCondition.RunCount.help"
-    },
-    "CoinLimit": {
-      "name": "StopCondition.CoinLimit.name",
-      "help": "StopCondition.CoinLimit.help"
-    },
     "OilLimit": {
       "name": "StopCondition.OilLimit.name",
       "help": "StopCondition.OilLimit.help"
+    },
+    "RunCount": {
+      "name": "StopCondition.RunCount.name",
+      "help": "StopCondition.RunCount.help"
     },
     "MapAchievement": {
       "name": "StopCondition.MapAchievement.name",
@@ -828,6 +824,10 @@
     "ReachLevel": {
       "name": "StopCondition.ReachLevel.name",
       "help": "StopCondition.ReachLevel.help"
+    },
+    "CoinLimit": {
+      "name": "StopCondition.CoinLimit.name",
+      "help": "StopCondition.CoinLimit.help"
     }
   },
   "Fleet": {

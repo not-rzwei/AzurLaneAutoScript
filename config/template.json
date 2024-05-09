@@ -97,13 +97,13 @@
       "AmbushEvade": true
     },
     "StopCondition": {
-      "RunCount": 0,
-      "CoinLimit": 590000,
       "OilLimit": 1000,
+      "RunCount": 0,
       "MapAchievement": "non_stop",
       "StageIncrease": false,
       "GetNewShip": false,
-      "ReachLevel": 0
+      "ReachLevel": 0,
+      "CoinLimit": 550000
     },
     "Fleet": {
       "Fleet1": 1,
@@ -172,13 +172,13 @@
       "AmbushEvade": true
     },
     "StopCondition": {
-      "RunCount": 0,
-      "CoinLimit": 590000,
       "OilLimit": 1000,
+      "RunCount": 0,
       "MapAchievement": "non_stop",
       "StageIncrease": false,
       "GetNewShip": false,
-      "ReachLevel": 0
+      "ReachLevel": 0,
+      "CoinLimit": 550000
     },
     "Fleet": {
       "Fleet1": 1,
@@ -247,13 +247,13 @@
       "AmbushEvade": true
     },
     "StopCondition": {
-      "RunCount": 0,
-      "CoinLimit": 590000,
       "OilLimit": 1000,
+      "RunCount": 0,
       "MapAchievement": "non_stop",
       "StageIncrease": false,
       "GetNewShip": false,
-      "ReachLevel": 0
+      "ReachLevel": 0,
+      "CoinLimit": 550000
     },
     "Fleet": {
       "Fleet1": 1,
@@ -329,13 +329,13 @@
       "AmbushEvade": true
     },
     "StopCondition": {
-      "RunCount": 0,
-      "CoinLimit": 590000,
       "OilLimit": 1000,
+      "RunCount": 0,
       "MapAchievement": "non_stop",
       "StageIncrease": false,
       "GetNewShip": false,
-      "ReachLevel": 0
+      "ReachLevel": 0,
+      "CoinLimit": 550000
     },
     "Fleet": {
       "Fleet1": 1,
@@ -386,13 +386,13 @@
       "AmbushEvade": true
     },
     "StopCondition": {
-      "RunCount": 0,
-      "CoinLimit": 590000,
       "OilLimit": 1000,
+      "RunCount": 0,
       "MapAchievement": "non_stop",
       "StageIncrease": false,
       "GetNewShip": false,
-      "ReachLevel": 0
+      "ReachLevel": 0,
+      "CoinLimit": 550000
     },
     "Fleet": {
       "Fleet1": 1,
@@ -461,13 +461,13 @@
       "AmbushEvade": true
     },
     "StopCondition": {
-      "RunCount": 0,
-      "CoinLimit": 590000,
       "OilLimit": 1000,
+      "RunCount": 0,
       "MapAchievement": "non_stop",
       "StageIncrease": false,
       "GetNewShip": false,
-      "ReachLevel": 0
+      "ReachLevel": 0,
+      "CoinLimit": 550000
     },
     "Fleet": {
       "Fleet1": 1,
@@ -540,13 +540,13 @@
       "AmbushEvade": true
     },
     "StopCondition": {
-      "RunCount": 0,
-      "CoinLimit": 590000,
       "OilLimit": 1000,
+      "RunCount": 0,
       "MapAchievement": "non_stop",
       "StageIncrease": false,
       "GetNewShip": false,
-      "ReachLevel": 0
+      "ReachLevel": 0,
+      "CoinLimit": 550000
     },
     "Emotion": {
       "Mode": "calculate",
@@ -588,13 +588,13 @@
       "Fleet": "single"
     },
     "StopCondition": {
-      "RunCount": 0,
-      "CoinLimit": 590000,
       "OilLimit": 1000,
+      "RunCount": 0,
       "MapAchievement": "non_stop",
       "StageIncrease": false,
       "GetNewShip": false,
-      "ReachLevel": 0
+      "ReachLevel": 0,
+      "CoinLimit": 550000
     },
     "Emotion": {
       "Mode": "calculate",
@@ -649,13 +649,13 @@
       "AmbushEvade": true
     },
     "StopCondition": {
-      "RunCount": 0,
-      "CoinLimit": 590000,
       "OilLimit": 1000,
+      "RunCount": 0,
       "MapAchievement": "non_stop",
       "StageIncrease": false,
       "GetNewShip": false,
-      "ReachLevel": 0
+      "ReachLevel": 0,
+      "CoinLimit": 550000
     },
     "Fleet": {
       "Fleet1": 1,
@@ -728,13 +728,13 @@
       "AmbushEvade": true
     },
     "StopCondition": {
-      "RunCount": 0,
-      "CoinLimit": 590000,
       "OilLimit": 1000,
+      "RunCount": 0,
       "MapAchievement": "non_stop",
       "StageIncrease": false,
       "GetNewShip": false,
-      "ReachLevel": 0
+      "ReachLevel": 0,
+      "CoinLimit": 550000
     },
     "Fleet": {
       "Fleet1": 1,
@@ -807,13 +807,13 @@
       "AmbushEvade": true
     },
     "StopCondition": {
-      "RunCount": 0,
-      "CoinLimit": 590000,
       "OilLimit": 1000,
+      "RunCount": 0,
       "MapAchievement": "non_stop",
       "StageIncrease": false,
       "GetNewShip": false,
-      "ReachLevel": 0
+      "ReachLevel": 0,
+      "CoinLimit": 550000
     },
     "Fleet": {
       "Fleet1": 1,
@@ -886,13 +886,13 @@
       "AmbushEvade": true
     },
     "StopCondition": {
-      "RunCount": 0,
-      "CoinLimit": 590000,
       "OilLimit": 1000,
+      "RunCount": 0,
       "MapAchievement": "non_stop",
       "StageIncrease": false,
       "GetNewShip": false,
-      "ReachLevel": 0
+      "ReachLevel": 0,
+      "CoinLimit": 550000
     },
     "Fleet": {
       "Fleet1": 1,
@@ -965,13 +965,13 @@
       "AmbushEvade": true
     },
     "StopCondition": {
-      "RunCount": 0,
-      "CoinLimit": 590000,
       "OilLimit": 1000,
+      "RunCount": 0,
       "MapAchievement": "non_stop",
       "StageIncrease": false,
       "GetNewShip": false,
-      "ReachLevel": 0
+      "ReachLevel": 0,
+      "CoinLimit": 550000
     },
     "Fleet": {
       "Fleet1": 1,
@@ -1040,13 +1040,13 @@
       "AmbushEvade": true
     },
     "StopCondition": {
-      "RunCount": 0,
-      "CoinLimit": 590000,
       "OilLimit": 1000,
+      "RunCount": 0,
       "MapAchievement": "non_stop",
       "StageIncrease": false,
       "GetNewShip": false,
-      "ReachLevel": 0
+      "ReachLevel": 0,
+      "CoinLimit": 550000
     },
     "Fleet": {
       "Fleet1": 1,
@@ -1118,13 +1118,13 @@
       "AmbushEvade": true
     },
     "StopCondition": {
-      "RunCount": 0,
-      "CoinLimit": 590000,
       "OilLimit": 1000,
+      "RunCount": 0,
       "MapAchievement": "non_stop",
       "StageIncrease": false,
       "GetNewShip": false,
-      "ReachLevel": 0
+      "ReachLevel": 0,
+      "CoinLimit": 550000
     },
     "Emotion": {
       "Mode": "calculate",
@@ -1166,13 +1166,13 @@
       "Fleet": "single"
     },
     "StopCondition": {
-      "RunCount": 0,
-      "CoinLimit": 590000,
       "OilLimit": 1000,
+      "RunCount": 0,
       "MapAchievement": "non_stop",
       "StageIncrease": false,
       "GetNewShip": false,
-      "ReachLevel": 0
+      "ReachLevel": 0,
+      "CoinLimit": 550000
     },
     "Emotion": {
       "Mode": "calculate",
