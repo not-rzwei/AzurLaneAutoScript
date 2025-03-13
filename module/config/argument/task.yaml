@@ -326,6 +326,8 @@ Tool:
       - Daemon
     OpsiDaemon:
       - OpsiDaemon
+    EventStory:
+      - EventStory
     Benchmark:
       - Benchmark
     AzurLaneUncensored:
