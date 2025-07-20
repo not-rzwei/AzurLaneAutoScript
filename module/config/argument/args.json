@@ -7543,6 +7543,10 @@
           "level120",
           "level125"
         ]
+      },
+      "Favourite": {
+        "type": "checkbox",
+        "value": false
       }
     },
     "Storage": {
